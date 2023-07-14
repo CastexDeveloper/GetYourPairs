@@ -5,10 +5,6 @@ export default function GetYoursPair(){
     const [getArray,setArray] = useState<any>("")
     const [getNumber,setNumber] = useState<any>()
     const [getPairs,setPairs] = useState<any>([])
-    console.time("3");
-    //getPair3([1,9,5,0,20,-4,12,16,7],12);
-    console.timeEnd("3")
-    console.log(getPairs)
     return(<div>
         <h1>GetPairs</h1>
         <div style={{display: "flex",flexDirection: "column"}}>
